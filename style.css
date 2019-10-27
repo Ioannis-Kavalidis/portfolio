@@ -106,7 +106,6 @@ i {
     padding: 5px;  
 }
 
-
 .icons {
 	bottom: 0;
     right: 0;
@@ -114,8 +113,6 @@ i {
     display: flex;
 	justify-content: center;
 }
-
-
 
 .ln {
 	display: flex;
@@ -156,7 +153,3 @@ i {
   flex: 33.33%;
   padding: 5px;
 }
-
-
-
-
