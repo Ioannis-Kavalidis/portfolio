@@ -1,0 +1,162 @@
+html {
+	font-family: 'Roboto', sans-serif;
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	background-image: url(https://www.superbest.pl/wp-content/uploads/2016/01/WebDev-1100x619.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+}
+
+main {
+	margin: 0 20px;
+}
+
+header {
+	height: 120px;
+	background-image: url(https://demo.qodeinteractive.com/bridge/wp-content/uploads/2014/03/headerimg4.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+footer {
+    background-color: #f2f2f2;
+    opacity: 0.8;
+}
+
+h1 {
+	color: black;
+	text-align:center;
+	margin: 0;
+	padding-top: 50px;
+}
+
+h2 {
+	padding-top: 30px;
+}
+
+nav {
+	background: #f4ca3f;
+	position: sticky;
+	top: 0;
+	display: flex;
+	justify-content: center;
+}
+
+nav a {
+	text-decoration: none;
+	padding: 2px 20px;
+	display: block;
+	color: brown;
+	font-size: 20px;
+}
+
+*@media all and (max-width: 600px) {
+	nav a {
+		display: block;
+		padding: 10px;
+		border-bottom: 1px solid brown;
+	}
+	nav {text-align: center;}
+}
+
+nav a:hover {
+	background-color: #b48631;
+	color: white;
+	visibility: visible;
+    opacity: 0.6;
+}
+
+i.fa-linkedin {
+	color:blue;
+	font-size: 40px;
+}
+
+i.fa-github {
+	color: darkblue;
+	font-size: 40px;	
+}
+h2, .fewwords, i, p {
+	text-align: center;
+}
+
+p {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#decription {
+	color: blue;
+	background-color: lightgrey;
+	background: rgba(255,255,255,0.5);
+	font-size: 19px;
+}
+
+i {
+	font-size: 40px;
+	color: blue;
+	display: flex;
+	justify-content: center;
+    width: 200px;
+    padding: 5px;  
+}
+
+
+.icons {
+	bottom: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+	justify-content: center;
+}
+
+
+
+.ln {
+	display: flex;
+	justify-content: center;
+}
+
+#about {
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 20px;
+	text-align: center;
+}
+
+.fewwords {
+	font-size: 25px;
+}
+
+
+#home {
+	color: slategray;
+}
+
+.img-responsive {
+    display: block;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+
+
+
