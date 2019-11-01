@@ -1,0 +1,31 @@
+label {
+	display: inline-block;
+	width: 140px;
+}
+label[for="news"] {
+	width: 300px;
+}
+input[type="text"], 
+input[type="email"],
+textarea {
+	width: 200px;
+	border: none;
+	border-bottom: 1px solid #333;
+	border-right: 1px solid #333;
+	padding: 5px;
+}
+textarea {
+	height: 100px;
+	resize: none;
+}
+input[type="text"]:focus, 
+input[type="email"]:focus,
+textarea:focus {
+	outline: none;
+	background-color: lightblue;
+	}
+
+input[type="submit"]:hover {
+	outline: none;
+	background-color: blue;
+}
