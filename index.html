@@ -4,87 +4,124 @@
 	<title>Personal Portfolio</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="draft.css">
+	<link rel="stylesheet" href="form-mobiledraft.css">
+	<link rel="stylesheet" href="formdraft.css">
+	<!-- <link rel="stylesheet" href="responsivenav.css"> -->
+	<!-- <script type="text/javascript" src="responsivenav.js"></script> -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400i&display=swap" rel="stylesheet">
 </head>
-	
+
 <body>
 	<header>
-		<h1 id="home">My Portfolio</h1>
+	  <h1 id="home">Ioannis Kavalidis <br></h1>
 	</header>
-	
-    <nav>
-      <a href="#home">Home</a>
+
+	<nav class="topnav"> <!-- id="myTopnav" -->
+	  <a href="#home" class="active">Home</a>
 	  <a href="#about">About</a>
 	  <a href="#skills">Skills</a>
 	  <a href="#projects">Projects</a>
 	  <a href="#contact">Contact</a>
+	<!--   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a> -->
     </nav>
-	
-	<main>
-		<section>
-			<div id="about"></div>
-			<img src="me.jpeg" alt="Ioannis Kavalidis"  border="0" class="img-responsive">
-			<h2 class="fewwords"><u>A few words about myself as a novice Web Developer</u></h2>
-			<p id="decription"><strong>My name is Ioannis Kavalidis.<br>Friends say I am stuborn as a mule and always eager to learn more.<br>Travel, read, dream, listen to others are some of my personal joys in life.<br> My coding abilities are building up as I give my time,<br> focus and diligence to every new challenge I come across.</strong></p><br><hr>
-		</section>
-		<section>
-			<h2 id="skills"><u>Skills</u></h2>
-			<p class="icons">
-				<i class="fab fa-html5 fa-3x"></i>
-				<i class="fab fa-css3-alt fa-3x"></i>
-				<i class="fab fa-bootstrap fa-3x"></i>
-				<i class="fab fa-js fa-3x"></i><br>
-				<i class="fab fa-vuejs fa-3x"></i>
-				<i class="fab fa-react fa-3x"></i>
-				<i class="fab fa-angular fa-3x"></i>
-				<i class="fab fa-node-js fa-3x"></i>
-			</p><br><hr>
-		</section>
 
-		<section>
-			<h2 id="projects"><u>Projects</u></h2>
-			<div class="row">
-      <div class="column">
-        <img src="https://cdn-images-1.medium.com/max/1200/1*nu5ahwQPoIj7Vj1Vz3QI9w.png" class="img-responsive" style="width:50%" alt="Random Quote Machine">
-      </div>
-      <div class="column">
-        <img src="https://pbs.twimg.com/profile_images/1110564970/Local_Weather_Twitter_400x400.jpg" class="img-responsive" style="width:47%" alt="Local Weather">
-      </div>
-      <div class="column">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0gozaSA-08Cfrp2bsmYgfhA8rEnxHDTI7bkTzbSmXT6Jvewzp" class="img-responsive" style="width:50%" alt="Simon Game">
-      </div>
-    </div>
-    <div class="row">
-      <div class="column">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHGf7s3CCCSIl--egP11ZJkxcUCLNIGY95if8r2GRU63QLmZ2s" class="img-responsive" style="width:50%" alt="Tic Tac Toe Game">
-      </div>
-      <div class="column">
-        <img src="https://www.sourcecodester.com/sites/default/files/styles/medium/public/images/jaelsamante/javascript_calculator.png?itok=CSFSNs_b" class="img-responsive" style="width:45%" alt="Calculator">
-      </div>
-      <div class="column">
-        <img src="https://images-na.ssl-images-amazon.com/images/I/41quZ1-sfWL.jpg" class="img-responsive" style="width:50%" alt="Pomodoro Clock">
-      </div>
-      
-    </div><br>
-   </section>
-	</main>
+ <main>
+	  <section class="content">
+		 <div id="about"></div>
+		 <div class="image">
+		 <img src="selfie.jpeg" alt="Ioannis Kavalidis"  border="0" class="img-responsive" id="selfie">
+		 <h2><u>Hi, my name is Ioannis and I am a Junior Web-Developer.</u></h2>
+		 <p id="decription"><q>Friends say I am stuborn as a mule and always eager for new experiences.<br>Travel, read, dream, learn are some of my personal joys in life.<br> My coding abilities are building up as I give my time,<br> focus and diligence to every new challenge I come across.</p><hr>
+		 </div>
+	 </section>
+	 <section>
+		 <h2 id="skills"><u>Skills</u></h2>
 
-	<footer class="footer" align="center">
-    <h2 id="contact"><strong>You can contact me at:</strong></h2>
-    <a href="https://skype.com/" class="fa fa-skype" style="font-size:40px" role="button" target="_blank"></a>&emsp;
-    <a href="https://github.com/" class="fa fa-github" style="font-size:40px" role="button" target="_blank"></a>&emsp;
-    <a href="#" class="fas fa-envelope-square" style="font-size:40px" role="button" target="_blank"></a>&emsp;
-    
-    <h2><strong>or connect with me on:</strong></h2>
-    <a href="https://linkedin.com/" class="fa fa-linkedin" style="font-size:40px" role="button" target="_blank"></a>&emsp;
-    <a href="https://www.xing.com/" class="fa fa-xing" style="font-size:40px" role="button" target="_blank"></a>&emsp;
-    <a href="https://twitter.com/" class="fa fa-twitter" style="font-size:40px"  role="button" target="_blank"></a><br><br>
-  </footer>
-    
-  <p class="text-center">© Made by Ioannis Kavalidis | 2019</p>	
+		 <p>Taught by the best in DCI Berlin, I am now driven to write clean code and give modern solutions that utilize HTML5, CSS3 and JavaScript along with various frameworks, standards-based implementations and modern trends in web-design. <br><br> I also have extensive experience managing several staff, projects and tasks across different sectors (previous career in hotel industry). I don't, however, know anything regarding nanotechnology, photovoltaics or other areas of study that have more than five syllables. That, I'm afraid, would be <span>my brother</span>.
+         <br><br>What I 've learned and continue learning<br><i class="far fa-hand-point-down" style=color:black></i></p><br>
+		 <p class="icons">
+			<i class="fab fa-html5 fa-5x" style="color:#FABF28"></i>
+			<i class="fab fa-css3-alt fa-5x" style="color:#45FAE8"></i>
+			<i class="fab fa-js fa-5x" style="color:#FFEF35"></i>
+			<i class="fab fa-bootstrap fa-5x" style="color:#0073FF"></i>
+		 </p><br><br>
+		 <p class="icons">
+			<i class="fab fa-vuejs fa-5x" style="color:#0C6124"></i>
+			<i class="fab fa-react fa-5x" style="color:#66F5FF"></i>
+			<i class="fab fa-angular fa-5x" style="color:#FA3C33"></i>
+			<i class="fab fa-node-js fa-5x" style="color:#1FFF2A"></i>
+		 </p><br><hr>
+	 </section>
 
-</body>
+	 <section>
+		<h2 id="projects"><u>Projects</u></h2>
+		  <div class="row">
+			 <div class="column">
+				<img src="https://cdn-images-1.medium.com/max/1200/1*nu5ahwQPoIj7Vj1Vz3QI9w.png" class="img-responsive" style="width:55%" alt="Random Quote Machine"><br>Random Quote Machine
+			 </div>
+			 <div class="column">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0gozaSA-08Cfrp2bsmYgfhA8rEnxHDTI7bkTzbSmXT6Jvewzp" class="img-responsive" style="width:50%" alt="Simon Game"><br>Simon Game
+			 </div>
+		  </div>
+		 <div class="row">
+			<div class="column">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHGf7s3CCCSIl--egP11ZJkxcUCLNIGY95if8r2GRU63QLmZ2s" class="img-responsive" style="width:50%" alt="Tic Tac Toe Game"><br>Tic Tac Toe
+			</div>
+			<div class="column">
+				<img src="https://pbs.twimg.com/profile_images/1110564970/Local_Weather_Twitter_400x400.jpg" class="img-responsive" style="width:50%" alt="Local Weather"><br>Local Weather
+			</div>
+		  </div>
+		 <div class="row">
+			<div class="column">
+				<img src="https://www.sourcecodester.com/sites/default/files/styles/medium/public/images/jaelsamante/javascript_calculator.png?itok=CSFSNs_b" class="img-responsive" style="width:50%" alt="Calculator"><br>Calculator
+			</div>
+			<div class="column">
+				<img src="https://images-na.ssl-images-amazon.com/images/I/41quZ1-sfWL.jpg" class="img-responsive" style="width:58%" alt="Pomodoro Clock"><br>Pomodoro Clock
+			</div>
+		 </div>
+	   </section>
+     </main>
+
+     <footer class="footer" align="center">
+	  <h2 id="contact"><strong><u>Contact me</u></strong></h2>
+	  <form id="contact" align="center" action="" name="contact" method="POST">
+		 <div>
+			<div class="rowTab" align="center">
+				<div class="labels">
+					<label id="name-label" for="name">Name:</label>
+				</div>
+				<div class="rightTab">
+					<input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
+				</div>
+			</div>
+			<div class="rowTab" align="center">
+				<div class="labels">Email:
+					<label id="email-label" for="email">Email:</label>
+				</div>
+				<div class="rightTab">
+					<input type="email" name="email" id="email" class="input-field" required placeholder="Enter your Email">
+				</div>
+			</div>
+			<div class="rowTab" align="center">
+				<div class="labels">
+					<label for="comments">Your Message:</label>
+				</div>
+				<div class="rightTab">
+					<textarea id="comments" class="input-field" style="height:70px;resize:vertical;" name="comment" placeholder="Enter your comment here..."></textarea>
+				</div>
+			</div>
+			<button id="submit" type="submit" align="center">Submit</button>
+	   </form>
+	 </footer>
+
+	 <p class="text-center">© Made by Ioannis Kavalidis | 2019&emsp;<a href="https://github.com/" class="fa fa-github" style="font-size:25px; color:black;" role="button" target="_blank"></a>&emsp;&nbsp;
+		<a href="https://linkedin.com/" class="fa fa-linkedin" style="font-size:25px; color:#1089ff;" role="button" target="_blank"></a>&emsp;&nbsp;
+		<a href="https://www.xing.com/" class="fa fa-xing" style="font-size:25px; color:green;" role="button" target="_blank">
+     </a></p>	
+ </body>
 </html>
