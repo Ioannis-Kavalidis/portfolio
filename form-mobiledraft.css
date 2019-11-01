@@ -1,0 +1,6 @@
+label[for="fn"],
+  label[for="ln"],
+  label[for="email"],
+  label[for="msg"] {
+    display: none;
+  }
